@@ -1,0 +1,233 @@
+/* =============== 
+Entire Sheet
+=============== */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* =============== 
+Header
+=============== */
+
+li a {
+  color: gray !important;
+}
+
+.brand-logo {
+  background-color: #44aaa5;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.nav-wrapper {
+  padding: 0px 40px;
+}
+
+/* =============== 
+Body
+=============== */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url(../images/prism.png);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.title {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 2px solid lightgray;
+  font-size: 50px;
+}
+
+.box {
+  padding: 40px;
+}
+
+.container {
+  padding: 40px;
+  margin: auto;
+}
+
+/* =============== 
+Contact.html
+=============== */
+
+form {
+  padding: 0px 30px;
+}
+
+#name, #email {
+  border: 2px solid lightgray;
+  padding: 0px 5px;
+  margin-right: 5px;
+  margin-top: -10px;
+}
+
+/* =============== 
+Portfolio.html
+=============== */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.image-1-container {
+  position: relative;
+  z-index: 0;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  margin: 10px;
+}
+
+.image-1 {
+  width: 100%;
+}
+
+.text-1 {
+  position: absolute;
+  background-color: #44aaa5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  z-index: 10;
+}
+
+.image-2-container {
+  position: relative;
+  z-index: 0;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  margin: 10px;
+}
+
+.image-2 {
+  width: 100%;
+}
+
+.text-2 {
+  position: absolute;
+  background-color: #44aaa5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  z-index: 10;
+}
+
+.image-3-container {
+  position: relative;
+  z-index: 0;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  margin: 10px;
+}
+
+.image-3 {
+  width: 100%;
+}
+
+.text-3 {
+  position: absolute;
+  background-color: #44aaa5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  z-index: 10;
+}
+
+.image-4-container {
+  position: relative;
+  z-index: 0;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  margin: 10px;
+}
+
+.image-4 {
+  width: 100%;
+}
+
+.text-4 {
+  position: absolute;
+  background-color: #44aaa5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  z-index: 10;
+}
+
+.image-5-container {
+  position: relative;
+  z-index: 0;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  margin: 10px;
+}
+
+.image-5 {
+  width: 100%;
+}
+
+.text-5 {
+  position: absolute;
+  background-color: #44aaa5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  z-index: 10;
+}
+
+/* =============== 
+Footer
+=============== */
+
+footer {
+  padding: 20px;
+  border-top: 3px solid #44aaa5;
+}
